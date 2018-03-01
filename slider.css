@@ -1,0 +1,62 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  vertical-align:text-bottom;
+  width: 30px;
+  height: 15px;
+  margin-right:5px;
+  margin-bottom:2px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 11px;
+  width: 11px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: green;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px green;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+.checkbox-CS {
+  display: inline-block;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.checkbox-Layer {
+  display: inline-block;
+  width: 30px;
+  margin: 9px 12px 0px 12px;
+  text-align: center;
+}

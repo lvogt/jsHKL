@@ -1,0 +1,24 @@
+body {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  text-align: left;
+}
+
+h1, h4 {
+  text-align: center;
+}
+
+section {
+  margin-left: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+section > section {
+  border-left: 1px solid green;
+}
+
+footer {
+  clear: both;
+  text-align: left;
+}

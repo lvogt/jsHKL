@@ -1,0 +1,3237 @@
+{
+  "extinctionSymbols": {
+    "-1": [
+      {
+        "symbol": "P -",
+        "spaceGroups": [
+          1,
+          2
+        ],
+        "reflectionConditions": []
+      }
+    ],
+    "2/m": [
+      {
+        "symbol": "P 1 - 1",
+        "spaceGroups": [
+          3,
+          6,
+          10
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P 1 21 1",
+        "spaceGroups": [
+          4,
+          11
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C 1 - 1",
+        "spaceGroups": [
+          5,
+          8,
+          12
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 1 c 1",
+        "spaceGroups": [
+          7,
+          13
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C 1 c 1",
+        "spaceGroups": [
+          9,
+          15
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 1 21/c 1",
+        "spaceGroups": [
+          14
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      }
+    ],
+    "mmm": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          16,
+          25,
+          47
+        ],
+        "nonStandard": [
+          "P m 2 m (No. 25)",
+          "P 2 m m (No. 25)"
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P - - 21",
+        "spaceGroups": [
+          17
+        ],
+        "reflectionConditions": [
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 21 21 -",
+        "spaceGroups": [
+          18
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 21 21 21",
+        "spaceGroups": [
+          19
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C - - 21",
+        "spaceGroups": [
+          20
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C - - -",
+        "spaceGroups": [
+          21,
+          35,
+          65
+        ],
+        "nonStandard": [
+          "C m 2 m (No. 38)",
+          "C 2 m m (No. 38)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "F - - -",
+        "spaceGroups": [
+          22,
+          42,
+          69
+        ],
+        "nonStandard": [
+          "F m 2 m (No. 42)",
+          "F 2 m m (No. 42)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h, k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - - -",
+        "spaceGroups": [
+          23,
+          24,
+          44,
+          71
+        ],
+        "nonStandard": [
+          "I m 2 m (No. 44)",
+          "I 2 m m (No. 44)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - c -",
+        "spaceGroups": [
+          26
+        ],
+        "nonStandard": [
+          "P 2 c m (No. 28)",
+          "P m c m (No. 51)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P c c -",
+        "spaceGroups": [
+          27,
+          49
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - a -",
+        "spaceGroups": [
+          28
+        ],
+        "nonStandard": [
+          "P m a m (No. 51)",
+          "P 21 a m (No. 26)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h0l",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P c a -",
+        "spaceGroups": [
+          29
+        ],
+        "nonStandard": [
+          "P c a m (No. 57)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n c -",
+        "spaceGroups": [
+          30
+        ],
+        "nonStandard": [
+          "P n c m (No. 53)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - n -",
+        "spaceGroups": [
+          31
+        ],
+        "nonStandard": [
+          "P 21 n m (No. 31)",
+          "P m n m (No. 59)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h0l",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P b a -",
+        "spaceGroups": [
+          32,
+          55
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n a -",
+        "spaceGroups": [
+          33
+        ],
+        "nonStandard": [
+          "P n a m (No. 62)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n n -",
+        "spaceGroups": [
+          34,
+          58
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C - c -",
+        "spaceGroups": [
+          36
+        ],
+        "nonStandard": [
+          "C 2 c m (No. 40)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C c c -",
+        "spaceGroups": [
+          37,
+          66
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "A - - -",
+        "spaceGroups": [
+          38
+        ],
+        "nonStandard": [
+          "A 2 2 2 (No. 21)",
+          "A m m m (No. 65)",
+          "A m 2 m (No. 38)",
+          "A 2 m m (No. 35)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "A (bc) - -",
+        "spaceGroups": [
+          39
+        ],
+        "nonStandard": [
+          "A e m m (No. 67)",
+          "A e 2 m (No. 39)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "A - a -",
+        "spaceGroups": [
+          40
+        ],
+        "nonStandard": [
+          "A m a m (No. 63)",
+          "A 21 a m (No. 36)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "A (bc) a -",
+        "spaceGroups": [
+          41
+        ],
+        "nonStandard": [
+          "A e a m (No. 64)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "F d d -",
+        "spaceGroups": [
+          43
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 4n; k, l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h+l = 4n; h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h, k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 4n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "I b a -",
+        "spaceGroups": [
+          45,
+          72
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - (ac) -",
+        "spaceGroups": [
+          46
+        ],
+        "nonStandard": [
+          "I m a m (No. 74)",
+          "I 2 c m (No. 46)",
+          "I m c m (No. 74)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n n n",
+        "spaceGroups": [
+          48
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P b a n",
+        "spaceGroups": [
+          50
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - - a",
+        "spaceGroups": [
+          51
+        ],
+        "nonStandard": [
+          "P m 2 a (No. 28)",
+          "P 21 m a (No. 26)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n n a",
+        "spaceGroups": [
+          52
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - n a",
+        "spaceGroups": [
+          53
+        ],
+        "nonStandard": [
+          "P 2 n a (No. 30)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h0l",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P c c a",
+        "spaceGroups": [
+          54
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P c c n",
+        "spaceGroups": [
+          56
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P b c -",
+        "spaceGroups": [
+          57
+        ],
+        "nonStandard": [
+          "P b c 21 (No. 29)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - - n",
+        "spaceGroups": [
+          59
+        ],
+        "nonStandard": [
+          "P m 21 n (No. 31)",
+          "P 21 m n (No. 31)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P b c n",
+        "spaceGroups": [
+          60
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P b c a",
+        "spaceGroups": [
+          61
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n - a",
+        "spaceGroups": [
+          62
+        ],
+        "nonStandard": [
+          "P n 21 a (No. 33)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C - c -",
+        "spaceGroups": [
+          63
+        ],
+        "nonStandard": [
+          "C 2 c m (No. 40)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C - c (ab)",
+        "spaceGroups": [
+          64
+        ],
+        "nonStandard": [
+          "C 2 c e (No. 41)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h, k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C - - (ab)",
+        "spaceGroups": [
+          67
+        ],
+        "nonStandard": [
+          "C m 2 e (No. 39)",
+          "C 2 m e (No. 39)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h, k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "C c c (ab)",
+        "spaceGroups": [
+          68
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h, k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "F d d d",
+        "spaceGroups": [
+          70
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 4n; k, l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h+l = 4n; h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 4n; h, k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 4n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "I b c a",
+        "spaceGroups": [
+          73
+        ],
+        "nonStandard": [
+          "I c a b (No. 73)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h, k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - - (ab)",
+        "spaceGroups": [
+          74
+        ],
+        "nonStandard": [
+          "I m 2 a (No. 46)",
+          "I 2 m b (No. 46)",
+          "I m m b (No. 74)"
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h0l",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h, k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "0k0",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      }
+    ],
+    "4/m": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          75,
+          81,
+          83
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P 41 - -",
+        "spaceGroups": [
+          76,
+          78
+        ],
+        "reflectionConditions": [
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 42 - -",
+        "spaceGroups": [
+          77,
+          84
+        ],
+        "reflectionConditions": [
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - - -",
+        "spaceGroups": [
+          79,
+          82,
+          87
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I 41 - -",
+        "spaceGroups": [
+          80
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n - -",
+        "spaceGroups": [
+          85
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 42/n - -",
+        "spaceGroups": [
+          86
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I 41/a - -",
+        "spaceGroups": [
+          88
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "hh0",
+            "condition": "h = 2n"
+          }
+        ]
+      }
+    ],
+    "4/mmm": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          89,
+          99,
+          111,
+          115,
+          123
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P 41 - -",
+        "spaceGroups": [
+          91,
+          95
+        ],
+        "reflectionConditions": [
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 42 - -",
+        "spaceGroups": [
+          93
+        ],
+        "reflectionConditions": [
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - - -",
+        "spaceGroups": [
+          97,
+          107,
+          119,
+          121,
+          139
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I 41 - -",
+        "spaceGroups": [
+          98
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n - -",
+        "spaceGroups": [
+          129
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - 21 -",
+        "spaceGroups": [
+          90,
+          113
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 41 21 -",
+        "spaceGroups": [
+          92,
+          96
+        ],
+        "reflectionConditions": [
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 42 21 -",
+        "spaceGroups": [
+          94
+        ],
+        "reflectionConditions": [
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - b -",
+        "spaceGroups": [
+          100,
+          117,
+          127
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - c -",
+        "spaceGroups": [
+          101,
+          116,
+          132
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - n -",
+        "spaceGroups": [
+          102,
+          118,
+          136
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - c c",
+        "spaceGroups": [
+          103,
+          124
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - n c",
+        "spaceGroups": [
+          104,
+          128
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - - c",
+        "spaceGroups": [
+          105,
+          112,
+          131
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - b c",
+        "spaceGroups": [
+          106,
+          135
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - c -",
+        "spaceGroups": [
+          108,
+          120,
+          140
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - - d",
+        "spaceGroups": [
+          109,
+          122
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "2h+l = 4n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "hh0",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - c d",
+        "spaceGroups": [
+          110
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "2h+l = 4n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "hh0",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - 21 c",
+        "spaceGroups": [
+          114
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n b -",
+        "spaceGroups": [
+          125
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n n c",
+        "spaceGroups": [
+          126
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n c c",
+        "spaceGroups": [
+          130
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n b c",
+        "spaceGroups": [
+          133
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n n -",
+        "spaceGroups": [
+          134
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n - c",
+        "spaceGroups": [
+          137
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n c -",
+        "spaceGroups": [
+          138
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hk0",
+            "condition": "h+k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I a - d",
+        "spaceGroups": [
+          141
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h, k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "2h+l = 4n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "hh0",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I a c d",
+        "spaceGroups": [
+          142
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "hk0",
+            "condition": "h, k = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "2h+l = 4n"
+          },
+          {
+            "type": "00l",
+            "condition": "l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          },
+          {
+            "type": "hh0",
+            "condition": "h = 2n"
+          }
+        ]
+      }
+    ],
+    "-3": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          143,
+          147
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P 31 - -",
+        "spaceGroups": [
+          144,
+          145
+        ],
+        "reflectionConditions": [
+          {
+            "type": "000l",
+            "condition": "l = 3n"
+          }
+        ]
+      },
+      {
+        "symbol": "R - - -",
+        "spaceGroups": [
+          146,
+          148
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkil",
+            "condition": "-h+k+l = 3n"
+          },
+          {
+            "type": "hki0",
+            "condition": "-h+k = 3n"
+          },
+          {
+            "type": "hh2hl",
+            "condition": "l = 3n"
+          },
+          {
+            "type": "hh0l",
+            "condition": "h+l = 3n"
+          },
+          {
+            "type": "000l",
+            "condition": "l = 3n"
+          },
+          {
+            "type": "hh00",
+            "condition": "h = 3n"
+          }
+        ]
+      }
+    ],
+    "-3m1": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          150,
+          156,
+          164
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P 31 - -",
+        "spaceGroups": [
+          152,
+          154
+        ],
+        "reflectionConditions": [
+          {
+            "type": "000l",
+            "condition": "l = 3n"
+          }
+        ]
+      },
+      {
+        "symbol": "R - - -",
+        "spaceGroups": [
+          155,
+          160,
+          166
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkil",
+            "condition": "-h+k+l = 3n"
+          },
+          {
+            "type": "hki0",
+            "condition": "-h+k = 3n"
+          },
+          {
+            "type": "hh2hl",
+            "condition": "l = 3n"
+          },
+          {
+            "type": "hh0l",
+            "condition": "h+l = 3n"
+          },
+          {
+            "type": "000l",
+            "condition": "l = 3n"
+          },
+          {
+            "type": "hh00",
+            "condition": "h = 3n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - c -",
+        "spaceGroups": [
+          158,
+          165
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hh0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "000l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "R - c -",
+        "spaceGroups": [
+          161,
+          167
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkil",
+            "condition": "-h+k+l = 3n"
+          },
+          {
+            "type": "hki0",
+            "condition": "-h+k = 3n"
+          },
+          {
+            "type": "hh2hl",
+            "condition": "l = 3n"
+          },
+          {
+            "type": "hh0l",
+            "condition": "h+l = 3n; l = 2n"
+          },
+          {
+            "type": "000l",
+            "condition": "l = 6n"
+          },
+          {
+            "type": "hh00",
+            "condition": "h = 3n"
+          }
+        ]
+      }
+    ],
+    "-31m": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          149,
+          157,
+          162
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P 31 - -",
+        "spaceGroups": [
+          151,
+          153
+        ],
+        "reflectionConditions": [
+          {
+            "type": "000l",
+            "condition": "l = 3n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - - c",
+        "spaceGroups": [
+          159,
+          163
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hh2hl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "000l",
+            "condition": "l = 2n"
+          }
+        ]
+      }
+    ],
+    "6/m": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          168,
+          174,
+          175
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P 61 - -",
+        "spaceGroups": [
+          169,
+          170
+        ],
+        "reflectionConditions": [
+          {
+            "type": "000l",
+            "condition": "l = 6n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 62 - -",
+        "spaceGroups": [
+          171,
+          172
+        ],
+        "reflectionConditions": [
+          {
+            "type": "000l",
+            "condition": "l = 3n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 63 - -",
+        "spaceGroups": [
+          173,
+          176
+        ],
+        "reflectionConditions": [
+          {
+            "type": "000l",
+            "condition": "l = 2n"
+          }
+        ]
+      }
+    ],
+    "6/mmm": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          177,
+          183,
+          187,
+          189,
+          191
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P 61 - -",
+        "spaceGroups": [
+          178,
+          179
+        ],
+        "reflectionConditions": [
+          {
+            "type": "000l",
+            "condition": "l = 6n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 62 - -",
+        "spaceGroups": [
+          180,
+          181
+        ],
+        "reflectionConditions": [
+          {
+            "type": "000l",
+            "condition": "l = 3n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 63 - -",
+        "spaceGroups": [
+          182
+        ],
+        "reflectionConditions": [
+          {
+            "type": "000l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - c c",
+        "spaceGroups": [
+          184,
+          192
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hh2hl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "hh0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "000l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - c -",
+        "spaceGroups": [
+          185,
+          188,
+          193
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hh0l",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "000l",
+            "condition": "l = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - - c",
+        "spaceGroups": [
+          186,
+          190,
+          194
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hh2hl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "000l",
+            "condition": "l = 2n"
+          }
+        ]
+      }
+    ],
+    "m-3": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          195,
+          200
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "F - - -",
+        "spaceGroups": [
+          196,
+          202
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - - -",
+        "spaceGroups": [
+          197,
+          199,
+          204
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 21 - -",
+        "spaceGroups": [
+          198
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n - -",
+        "spaceGroups": [
+          201
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "F d - -",
+        "spaceGroups": [
+          203
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 4n; k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "P a - -",
+        "spaceGroups": [
+          205
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I a - -",
+        "spaceGroups": [
+          206
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      }
+    ],
+    "m-3m": [
+      {
+        "symbol": "P - - -",
+        "spaceGroups": [
+          207,
+          215,
+          221
+        ],
+        "reflectionConditions": []
+      },
+      {
+        "symbol": "P 42 - -",
+        "spaceGroups": [
+          208
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "F - - -",
+        "spaceGroups": [
+          209,
+          216,
+          225
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "F 41 - -",
+        "spaceGroups": [
+          210
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - - -",
+        "spaceGroups": [
+          211,
+          217,
+          229
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P 41 - -",
+        "spaceGroups": [
+          212,
+          213
+        ],
+        "reflectionConditions": [
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "I 41 - -",
+        "spaceGroups": [
+          214
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "P - - n",
+        "spaceGroups": [
+          218,
+          223
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "F - - c",
+        "spaceGroups": [
+          219,
+          226
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "I - - d",
+        "spaceGroups": [
+          220
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "2h+l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n - n",
+        "spaceGroups": [
+          222
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "P n - -",
+        "spaceGroups": [
+          224
+        ],
+        "reflectionConditions": [
+          {
+            "type": "0kl",
+            "condition": "k+l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 2n"
+          }
+        ]
+      },
+      {
+        "symbol": "F d - -",
+        "spaceGroups": [
+          227
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 4n; k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "h+l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "F d - c",
+        "spaceGroups": [
+          228
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k, h+l, k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k+l = 4n; k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "h, l = 2n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          }
+        ]
+      },
+      {
+        "symbol": "I a - d",
+        "spaceGroups": [
+          230
+        ],
+        "reflectionConditions": [
+          {
+            "type": "hkl",
+            "condition": "h+k+l = 2n"
+          },
+          {
+            "type": "0kl",
+            "condition": "k, l = 2n"
+          },
+          {
+            "type": "hhl",
+            "condition": "2h+l = 4n"
+          },
+          {
+            "type": "h00",
+            "condition": "h = 4n"
+          }
+        ]
+      }
+    ]
+  }
+}

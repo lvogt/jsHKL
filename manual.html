@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="HKL Simulator Manual" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+
+  <title>jsHKL - Manual</title>
+
+  <link rel="stylesheet" type="text/css" href="man.css" />
+</head>
+
+<body>
+
+<header>
+  <h1>jsHKL - Manual</h1>
+  <h4>Last updated: 26.06.2017</h4>
+</header>
+
+<section>
+  <h2>Description</h2>
+
+  <p>This program was designed as an educational tool to understand the diffraction pattern of crystals. The idea is borrowed from hk0simu by R. Sievers.</p>
+  
+  <p>The task set by this program is to determine the Laue class and the extinction symbol without further help. The tables which list the reflection conditions and the resulting extinction symbols as found in the International Tables for Crystallography A may be used (especially for higher symmetric crystal systems).</p>
+</section>
+
+<section>
+  <h2>Usage</h2>
+  
+  <section>
+    <h3>Basic (quiz) mode</h3>
+    
+    <p>The program will display a set of randomly generated precession images. All settings are randomly chosen only the allowed space groups are limited by the &quot;Allowed crystal systems&quot; checkboxes. Ticking all or no crystal system removes all restrictions.</p>
+    
+    <p>The reciprocal layers are automatically selected depending on the crystal system. First layers are always displayed for centered unit cells and have a 50% chance to be shown for primitive unit cells.</p>
+    
+    <p>The &quot;Solution&quot; button will display the Laue class, the reflection conditions as found in the International Tables for Crystallography and the resulting extinction symbol. Additionally it will list the possible space groups. For orthorhombic space groups this does include non-standard settings as indicated by &quot;(NS)&quot;.</p>
+  </section>
+  
+  <section>
+    <h3>More Settings</h3>
+    
+    <p>The &quot;More Settings&quot; button opens a window with additional options. The wavelength and the resolution limit can be adjusted. Checking &quot;Draw axes&quot; will add the (unlabelled) reciprocal axes to all layers and checking &quot;Show hkl indices&quot; will display the reflection index under the mouse cursor.</p>
+    
+    <p>Under &quot;Reciprocal layers&quot; display of specific layers can be turned on and off.</p>
+    
+    <p>Checking the box right of the  window title &quot;Additional settings&quot; leaves the basic (mode) mode and gives full control over the lattice paramters and space group from the main page (see below).</p>
+  </section>
+  
+  <section>
+    <h3>Generating specific images</h3>
+  
+    <p>If the full settings are enabled in the settings window, the main page will additionally display the &quot;Lattice constants and Space group&quot; box. The lattice paramters, space group and random seed can be chosen freely. However, depending on the selected space group the lattice paramters may be adjusted for the restrictions of the crystal system.</p>
+    
+    <p>As the space group must be specified by its number, there are two tools available. Depending on the used browser, the input field may display an autocompleting dropdown list and clicking &quot;Space group&quot; opens an additional window listing all 230 space groups.</p>
+  </section>
+  
+  <section>
+    <h3>Sharing a data set / Hash</h3>
+
+    <p>At the bottom left of the main page a link to the page itself with an additional hash is displayed. Accessing the program using this link will (hopefully) display the exact same pattern across all devices.</p>
+  
+    <p></p>
+  </section>
+</section>
+
+<section>
+  <h2>Theoretical Background</h2>
+
+  <p>A data set is generated for a set of input variables, namely the unit cell lattice constants (a, b, c, alpha, beta, gamma), the space group, the used x-ray wavelength and experimental resolution limit. Additionally a seed to initialise the PRNG is needed. The wavelength and the resolution limit are excluded from randomization.</p>
+  
+  <p>A random set of reflection intensities for the resulting resolution limit is generated. The intensities are modified to show an exponential decay for higher diffraction angles, however the actual function is chosen to give &quot;nice looking&quot; intensities rathern than following the decay as dictated by the atomic scattering functions. The Laue symmetry and systematic extinctions are enforced for the selected space group.</p>
+  
+  <p>For the graphical representation a scaling factor is automatically chosen to ensure that the full layer fits within the canvas element. Depending on the screen size one, two or three columns are displayed next to each other.</p>
+</section>
+
+<section>
+  <h2>Shortcuts</h2>
+  
+  <ul>
+    <li><b>RETURN:</b> generate a new random pattern (basic mode) - otherwise apply new settings</li>
+    <li><b>ESC:</b> close all windows</li>
+    <li><b>S:</b> display solution</li>
+    <li><b>M:</b> open additional settings window</li>
+    <li><b>F:</b> toggle full settings</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Bugs and Suggestions</h2>
+
+  <p>Please report bugs, wrong reflection data, etc. or suggestions to landvogt [at] uni-bonn.de</p>
+
+  <p>This program is distributed under the terms of the <a href="LICENSE.txt">GNU General Public License v3</a>. A ZIP archive with all relevant files is available <a href="jsHKL-2017-06-26.zip" download >here</a>.</p>
+  
+  <p>Copyright &copy; 2016, 2017 Christian Landvogt</p>  
+</section>
+
+</body>
+
+</html>

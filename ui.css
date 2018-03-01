@@ -1,0 +1,160 @@
+body {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  text-align: center;
+}
+
+fieldset  {
+  text-align: left;
+}
+
+fieldset.allow {
+  max-width: 560px;
+  margin: auto;
+  border: 1px solid green;
+}
+
+fieldset.lattice {
+  display: none;
+  margin: auto;
+  border: 1px solid green;
+  max-width: 560px;
+}
+
+ button {
+  width: 100px;
+  padding: 4px;
+  margin-top: 10px;
+  background: green; 
+  border: 1px solid black; 
+  font-size: 14px; 
+  color: #FFFFFF; 
+  cursor: pointer;
+}
+
+div.outerContainer {
+  float: left;
+  font-style: italic;
+}
+
+div.innerContainer {
+  margin-bottom: 20px;
+}
+
+span.normal {
+  font-style: normal;
+}
+
+div.centering {
+  text-align: center;
+}
+
+.sglist {
+  display: inline-block;
+  width: 110px;
+  padding-right: 20px;
+  white-space: nowrap;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.sgnum {
+  display: inline-block;
+  width: 40px;
+  text-align: right;  
+  font-style: normal;
+}
+.sgsystem {
+  padding: 5px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.close-settings {
+  color: green;
+  position: absolute;
+  right: -5px;
+  top: -20px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table.modal-center {
+  margin: auto;
+}
+
+fieldset.settings {
+  float: left;
+  border: 1px solid green;
+  width: 270px;
+  height: 125px;
+}
+
+td.td-label {
+  text-align: right;
+}
+
+input[type=number] {
+  width: 70px;
+}
+
+input[type=number].lattice {
+  width: 50px;
+}
+
+input { 
+  padding: 3px; 
+  border: solid 1px #E5E5E5; 
+  outline: 0; 
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+  -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+  -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+} 
+
+input:hover, input:focus { 
+  border-color: #C9C9C9; 
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px; 
+} 
+input:invalid {
+  border: 2px solid red;
+} 
+
+.copyright {
+  float: right;
+  color: grey;
+  font-size: 80%;
+}
+
+.bottom {
+  clear: both;
+  text-align: left;
+}
+
+.hash {
+  color: grey;
+  font-size: 70%;
+  cursor: pointer;
+}  
+
+.help {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  border: 2px solid green;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: x-large;
+  color: green;
+}
+
+.help > a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}

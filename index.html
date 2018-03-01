@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+ *   Copyright 2016, 2017 Christian Landvogt
+ *
+ *   This file is part of jsHKL.
+ *
+ *   jsHKL is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   (at your option) any later version.
+ *
+ *   Foobar is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License
+ *   along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+ * -->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="jsHKL" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+
+  <title>jsHKL</title>
+
+  <link rel="stylesheet" type="text/css" href="ui.css" /> 
+  <link rel="stylesheet" type="text/css" href="modal.css" /> 
+  <link rel="stylesheet" type="text/css" href="slider.css" /> 
+
+  <script src="DiffractionPattern.js"></script>
+  <script src="UI.js"></script>
+  <script src="init.js"></script>
+  <script src="sg.js"></script>
+</head>
+  
+<body>
+<div id="top">
+<h1>jsHKL - Generate Random Precession Images</h1>
+
+<div class="help"><a href="manual.html" target="manual">?</a></div>
+
+<datalist id="sgDatalist"></datalist>
+
+<fieldset id="lattice-settings" class="lattice">
+  <div style="position:relative;"><span id="btnCloseSettings" class="close-settings">&times;</span></div>
+  <legend>Lattice Constants and Space Group</legend>
+  <table style="margin:auto"><tr><td>
+    <label for="lattice_a">a = </label><input class="lattice" type="number" step="any" size="4" name="lattice_a" id="lattice_a" value="7" pattern="[0-9]+(\.[0-9]+)?" required />
+    <label for="lattice_b">b = </label><input class="lattice" type="number" step="any" size="4" name="lattice_b" id="lattice_b" value="8" pattern="[0-9]+(\.[0-9]+)?" required />
+    <label for="lattice_c">c = </label><input class="lattice" type="number" step="any" size="4" name="lattice_c" id="lattice_c" value="9" pattern="[0-9]+(\.[0-9]+)?" required /> &#8491;
+    <br />
+    <label for="lattice_alpha">&alpha; = </label><input class="lattice" type="number" step="any" size="4" name="lattice_alpha" id="lattice_alpha" value="90" pattern="[0-9]+(\.[0-9]+)?" required />
+    <label for="lattice_beta">&beta; = </label><input class="lattice" type="number" step="any" size="4" name="lattice_beta" id="lattice_beta" value="90" pattern="[0-9]+(\.[0-9]+)?" required />
+    <label for="lattice_gamma">&gamma; = </label><input class="lattice" type="number" step="any" size="4" name="lattice_gamma" id="lattice_gamma" value="90" pattern="[0-9]+(\.[0-9]+)?" required /> deg.
+    <hr>
+    <div style="text-align:center"><label id="sglabel" style="text-decoration:underline; cursor:pointer;" for="spacegroup">Space group</label> <input class="lattice" type="number" step="1" size="7" value="62" name="spacegroup"  list="sgDatalist" id="spacegroup" pattern="[1-9][0-9]*" required />&nbsp;&nbsp;&nbsp;
+    <label for="seed">Seed </label><input type="number" step="1" size="4" name="seed" id="seed" value="1234" pattern="[1-9][0-9]*" required /></div>
+  </td></tr></table>
+</fieldset>
+
+<fieldset class="allow">
+
+<legend>Allowed crystal systems</legend>
+
+<span class="checkbox-CS" id="span_triclinic">
+<label class="switch">
+  <input type="checkbox" id="allow_triclinic">
+  <div class="slider"></div>
+</label>triclinic</span>
+
+<span class="checkbox-CS" id="span_monoclinic">
+<label class="switch">
+  <input type="checkbox" id="allow_monoclinic" checked="">
+  <div class="slider"></div>
+</label>monoclinic</span>
+
+<span class="checkbox-CS" id="span_orthorhombic">
+<label class="switch">
+  <input type="checkbox" id="allow_orthorhombic" checked="">
+  <div class="slider"></div>
+</label>orthorhombic</span>
+
+<span class="checkbox-CS" id="span_tetragonal">
+<label class="switch">
+  <input type="checkbox" id="allow_tetragonal">
+  <div class="slider"></div>
+</label>tetragonal</span>
+
+<span class="checkbox-CS" id="span_trigonal">
+<label class="switch">
+  <input type="checkbox" id="allow_trigonal">
+  <div class="slider"></div>
+</label>tri/hexagonal</span>
+
+<!--<span class="checkbox-CS">
+<label class="switch">
+  <input type="checkbox" id="allow_hexagonal">
+  <div class="slider"></div>
+</label>hexagonal</span>-->
+
+<span class="checkbox-CS" id="span_cubic">
+<label class="switch">
+  <input type="checkbox" id="allow_cubic">
+  <div class="slider"></div>
+</label>cubic</span>
+</fieldset>
+
+<button id="btnRandomize">Randomize</button>
+<button id="btnSolution">Solution</button>
+<button id="btnSettings">More Settings</button>
+</div>
+<div id="images"></div>
+
+
+<!-- start modal settings window -->
+<datalist id="xray"><option value="0.71073">Mo-Ka</option><option value="1.54051">Cu-Ka</option></datalist>
+
+<div id="modalSettings" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 style="font-size:medium">Additional settings&nbsp;&nbsp;
+        <span class="checkbox">
+          <label class="switch">
+          <input type="checkbox" id="full_settings">
+          <div class="slider"></div>
+        </label></span>
+      </h2>
+    </div>
+    <div class="modal-body">
+      <table class="modal-center"><tr><td>
+        <fieldset class="settings" id="settings-exp">
+          <legend>Experiment and Display</legend>
+          
+          <table>
+            <tr><td class="td-label"><label for="wavelength">Wavelength &lambda; = </label></td><td><input list="xray" type="number" step="any" size="7" value="0.71073" name="wavelength" id="wavelength" pattern="[0-9]+(\.[0-9]+)?" required /> &#8491;</td></tr>
+            
+            <tr><td class="td-label"><label for="resolutionlimit">Res. limit &theta;<sub>max</sub> = </label></td><td><input type="number" step="any" size="4" name="resolutionlimit" id="resolutionlimit" value="28" pattern="[0-9]+(\.[0-9]+)?" required /> deg.</td></tr>
+            
+            <tr><td class="td-label">Draw axes</td>
+                <td><span class="checkbox">
+                  <label class="switch">
+                  <input type="checkbox" id="draw_axes">
+                  <div class="slider"></div>
+                </label></span></td></tr>
+          
+            <tr><td class="td-label">Show <span style="font-style:italic">hkl</span> indices</td>
+                <td><span class="checkbox">
+                  <label class="switch">
+                  <input type="checkbox" id="draw_index">
+                  <div class="slider"></div>
+                </label></span></td></tr>
+          </table>          
+        </fieldset>
+        
+        <fieldset class="settings" id="settings-layer">
+          <legend>Reciprocal layers</legend>
+          <div class="centering">
+          <span class="checkbox-Layer">
+          <label class="switch">
+            <input type="checkbox" id="display_hk0" checked>
+            <div class="slider"></div>
+          </label>hk0</span>
+          
+          <span class="checkbox-Layer">
+          <label class="switch">
+            <input type="checkbox" id="display_h0l" checked>
+            <div class="slider"></div>
+          </label>h0l</span>
+          
+          <span class="checkbox-Layer">
+          <label class="switch">
+            <input type="checkbox" id="display_0kl" checked>
+            <div class="slider"></div>
+          </label>0kl</span>
+
+          <span class="checkbox-Layer">
+          <label class="switch">
+            <input type="checkbox" id="display_hhl">
+            <div class="slider"></div>
+          </label>hhl</span>
+
+          <span class="checkbox-Layer" style="clear:both">
+          <label class="switch">
+            <input type="checkbox" id="display_hk1" checked>
+            <div class="slider"></div>
+          </label>hk1</span>
+          
+          <span class="checkbox-Layer">
+          <label class="switch">
+            <input type="checkbox" id="display_h1l" checked>
+            <div class="slider"></div>
+          </label>h1l</span>
+          
+          <span class="checkbox-Layer">
+          <label class="switch">
+            <input type="checkbox" id="display_1kl" checked>
+            <div class="slider"></div>
+          </label>1kl</span>
+
+          <span class="checkbox-Layer">
+          <label class="switch">
+            <input type="checkbox" id="display_hhh">
+            <div class="slider"></div>
+          </label>hhh</span>
+          </div>
+        </fieldset>
+        
+      </td></tr></table>
+    </div>
+  </div>
+</div>
+<!-- end modal settings window -->
+
+
+<!-- start modal solution window -->
+<div id="modalSolution" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 style="font-size:medium">Solution</h2>
+    </div>
+    <div class="modal-body" id="solution-body">
+    </div>
+  </div>
+</div>
+<!-- end modal solution window -->
+
+<!-- start modal solution window -->
+<div id="modalSG" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2 style="font-size:medium">Select Space Group</h2>
+    </div>
+    <div class="modal-body" id="sgs-body">
+      <!--<div class="sgsystem">triclinic</div>
+      <span class="sglist"><span class="sgnum">1.</span> P 1</span>
+      <span class="sglist"><span class="sgnum">2.</span> P -1</span>
+      <div class="sgsystem">monoclinic</div>-->
+    </div>
+  </div>
+</div>
+<!-- end modal solution window -->
+
+<div class="bottom">
+  <div class="copyright">&copy; 2016, 2017 by Christian Landvogt</div>
+  <div class="hash" id="hash"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+- nicer formatting / presentation of solution
+- error handling for inputs and failed calculations
+
+- datalist does not work with pattern... in Firefox -- IGNORE
+
+
+done:
+- auto setting for scaleFactor to fill canvas
+- generate canvas to fill available screen size (1/2/3 columns depending on width) 
+- IE compatible - at least for now
+- CSS for layers; grouping them together
+- display solution in modal dialog
+- nicer reflection highlighting
+- any settings at all besides the allowed crystal systems - nearly done
+- hash; check hash
+- mark resolution limit with circle?
+- BUG: client width needs to be recalculated depending on scrollbar
+- nicer space group selection
+- BUG: resolution circle or getThetaFromHKL seems off for some angles(?)
+- better solution from ITCA
+- check Diffraction Symbols !!!
+- manual!
+- license!
+- extinction symbol count for non-standard settings
